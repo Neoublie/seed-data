@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Barbell Squat",
+    "description": "A compound exercise that targets the quadriceps, glutes, and hamstrings. Place the barbell on your upper back, squat down until your thighs are parallel to the floor, and return to the starting position.",
+    "muscle_group": "Lower Body",
+    "equipment": "Barbell, Squat Rack",
+    "measurement_types": ["Kg", "Reps"]
+  },
+  {
+    "name": "Dumbbell Bench Press",
+    "description": "A chest exercise that works the pectorals, triceps, and anterior deltoids. Lie on a bench, hold dumbbells in each hand, and press them upward.",
+    "muscle_group": "Upper Body",
+    "equipment": "Dumbbells, Bench",
+    "measurement_types": ["Kg", "Reps"]
+  },
+    {
+    "name": "Pull-ups",
+    "description": "A compound upper body exercise that works the back and biceps. Hang from a pull-up bar and pull your body up until your chin is above the bar.",
+    "muscle_group": "Upper Body",
+    "equipment": "Pull-up Bar",
+    "measurement_types": ["Reps"]
+  },
+  {
+    "name": "Romanian Deadlift",
+    "description": "A hamstring and glute exercise. Hold a barbell, hinge at the hips, and lower the barbell toward the floor, keeping your back straight.",
+    "muscle_group": "Lower Body",
+    "equipment": "Barbell",
+    "measurement_types": ["Kg", "Reps"]
+  },
+  {
+    "name": "Overhead Press",
+    "description": "A shoulder exercise that works the deltoids and triceps. Press a barbell or dumbbells overhead.",
+    "muscle_group": "Upper Body",
+    "equipment": "Barbell, Dumbbells",
+    "measurement_types": ["Kg", "Reps"]
+  },
+  {
+    "name": "Treadmill Run",
+    "description": "A cardio exercise that improves cardiovascular fitness. Run on a treadmill at a desired speed and incline.",
+    "muscle_group": "Cardio",
+    "equipment": "Treadmill",
+    "measurement_types": ["Distance", "Time"]
+  },
+  {
+    "name": "Leg Press",
+    "description": "Lower body exercise working quads, glutes, and hamstrings, while seated push the platform away from you.",
+    "muscle_group": "Lower Body",
+    "equipment": "Leg Press Machine",
+    "measurement_types": ["Kg", "Reps"]
+  },
+  {
+    "name": "Lat Pulldown",
+    "description": "An upper body exercise that targets the latissimus dorsi. Pull a bar down to your chest while seated.",
+    "muscle_group": "Upper Body",
+    "equipment": "Lat Pulldown Machine",
+    "measurement_types": ["Kg", "Reps"]
+  },
+  {
+    "name": "Plank",
+    "description": "A core exercise that strengthens the abdominal muscles. Hold a push-up position with your forearms on the ground.",
+    "muscle_group": "Full Body",
+    "equipment": "None",
+    "measurement_types": ["Time"]
+  },
+  {
+    "name": "Dumbbell Rows",
+    "description": "An upper body exercise that targets the back and biceps. Row dumbbells towards your torso.",
+    "muscle_group": "Upper Body",
+    "equipment": "Dumbbells, Bench",
+    "measurement_types": ["Kg", "Reps"]
+  },
+  {
+    "name": "Cycling",
+    "description": "cardio exercise that works many lower body muscles. cycle on a stationary bike.",
+    "muscle_group": "Cardio",
+    "equipment": "Stationary Bike",
+    "measurement_types": ["Distance", "Time"]
+  }
+]
