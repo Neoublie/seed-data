@@ -4,461 +4,791 @@
     "description": "A compound exercise that targets the quadriceps, glutes, and hamstrings. Place the barbell on your upper back, squat down until your thighs are parallel to the floor, and return to the starting position.",
     "muscle_group": "Lower Body",
     "equipment": "Barbell, Squat Rack",
-    "measurement_types": ["Kg", "Reps"]
+    "measurement_types": ["Kg", "Reps"],
+    "image_url": "https://example.com/barbell_squat.jpg",
+    "video_url": "https://example.com/barbell_squat.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Dumbbell Bench Press",
     "description": "A chest exercise that works the pectorals, triceps, and anterior deltoids. Lie on a bench, hold dumbbells in each hand, and press them upward.",
     "muscle_group": "Upper Body",
     "equipment": "Dumbbells, Bench",
-    "measurement_types": ["Kg", "Reps"]
+    "measurement_types": ["Kg", "Reps"],
+    "image_url": "https://example.com/dumbbell_bench_press.jpg",
+    "video_url": "https://example.com/dumbbell_bench_press.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Pull-ups",
     "description": "A compound upper body exercise that works the back and biceps. Hang from a pull-up bar and pull your body up until your chin is above the bar.",
     "muscle_group": "Upper Body",
     "equipment": "Pull-up Bar",
-    "measurement_types": ["Reps"]
+    "measurement_types": ["Reps"],
+    "image_url": "https://example.com/pull_ups.jpg",
+    "video_url": "https://example.com/pull_ups.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Romanian Deadlift",
     "description": "A hamstring and glute exercise. Hold a barbell, hinge at the hips, and lower the barbell toward the floor, keeping your back straight.",
     "muscle_group": "Lower Body",
     "equipment": "Barbell",
-    "measurement_types": ["Kg", "Reps"]
+    "measurement_types": ["Kg", "Reps"],
+    "image_url": "https://example.com/romanian_deadlift.jpg",
+    "video_url": "https://example.com/romanian_deadlift.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Overhead Press",
     "description": "A shoulder exercise that works the deltoids and triceps. Press a barbell or dumbbells overhead.",
     "muscle_group": "Upper Body",
     "equipment": "Barbell, Dumbbells",
-    "measurement_types": ["Kg", "Reps"]
+    "measurement_types": ["Kg", "Reps"],
+    "image_url": "https://example.com/overhead_press.jpg",
+    "video_url": "https://example.com/overhead_press.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Treadmill Run",
     "description": "A cardio exercise that improves cardiovascular fitness. Run on a treadmill at a desired speed and incline.",
     "muscle_group": "Cardio",
     "equipment": "Treadmill",
-    "measurement_types": ["Distance", "Time"]
+    "measurement_types": ["Distance", "Time"],
+    "image_url": "https://example.com/treadmill_run.jpg",
+    "video_url": "https://example.com/treadmill_run.mp4",
+    "level": "Beginner",
+    "type": "Cardio",
+    "isFavourite": false
   },
   {
     "name": "Leg Press",
     "description": "Lower body exercise working quads, glutes, and hamstrings, while seated push the platform away from you.",
     "muscle_group": "Lower Body",
     "equipment": "Leg Press Machine",
-    "measurement_types": ["Kg", "Reps"]
+    "measurement_types": ["Kg", "Reps"],
+    "image_url": "https://example.com/leg_press.jpg",
+    "video_url": "https://example.com/leg_press.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Lat Pulldown",
     "description": "An upper body exercise that targets the latissimus dorsi. Pull a bar down to your chest while seated.",
     "muscle_group": "Upper Body",
     "equipment": "Lat Pulldown Machine",
-    "measurement_types": ["Kg", "Reps"]
+    "measurement_types": ["Kg", "Reps"],
+    "image_url": "https://example.com/lat_pulldown.jpg",
+    "video_url": "https://example.com/lat_pulldown.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Plank",
     "description": "A core exercise that strengthens the abdominal muscles. Hold a push-up position with your forearms on the ground.",
     "muscle_group": "Full Body",
     "equipment": "None",
-    "measurement_types": ["Time"]
+    "measurement_types": ["Time"],
+    "image_url": "https://example.com/plank.jpg",
+    "video_url": "https://example.com/plank.mp4",
+    "level": "Beginner",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Dumbbell Rows",
     "description": "An upper body exercise that targets the back and biceps. Row dumbbells towards your torso.",
     "muscle_group": "Upper Body",
     "equipment": "Dumbbells, Bench",
-    "measurement_types": ["Kg", "Reps"]
+    "measurement_types": ["Kg", "Reps"],
+    "image_url": "https://example.com/dumbbell_rows.jpg",
+    "video_url": "https://example.com/dumbbell_rows.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Cycling",
     "description": "Cardio exercise that works many lower body muscles. Cycle on a stationary bike.",
     "muscle_group": "Cardio",
     "equipment": "Stationary Bike",
-    "measurement_types": ["Distance", "Time"]
+    "measurement_types": ["Distance", "Time"],
+    "image_url": "https://example.com/cycling.jpg",
+    "video_url": "https://example.com/cycling.mp4",
+    "level": "Beginner",
+    "type": "Cardio",
+    "isFavourite": false
   },
   {
     "name": "Push-ups",
     "description": "A classic upper body exercise that works the chest, shoulders, and triceps.  Perform exercise on the floor.",
     "muscle_group": "Upper Body",
     "equipment": "None",
-    "measurement_types": ["Reps"]
+    "measurement_types": ["Reps"],
+    "image_url": "https://example.com/push_ups.jpg",
+    "video_url": "https://example.com/push_ups.mp4",
+    "level": "Beginner",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Deadlift",
     "description": "A full-body exercise that works nearly every muscle, but emphasizes the posterior chain. Lift a loaded barbell from the floor to a standing position.",
     "muscle_group": "Full Body",
     "equipment": "Barbell",
-    "measurement_types": ["Kg", "Reps"]
+    "measurement_types": ["Kg", "Reps"],
+    "image_url": "https://example.com/deadlift.jpg",
+    "video_url": "https://example.com/deadlift.mp4",
+    "level": "Advanced",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Kettlebell Swing",
     "description": "A full body exercise that improves power and endurance, especially in the posterior chain. Swing a kettlebell from between your legs to shoulder height.",
     "muscle_group": "Full Body",
     "equipment": "Kettlebell",
-    "measurement_types": ["Kg", "Reps"]
+    "measurement_types": ["Kg", "Reps"],
+    "image_url": "https://example.com/kettlebell_swing.jpg",
+    "video_url": "https://example.com/kettlebell_swing.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Bench Press",
     "description": "A compound exercise for the chest, shoulders, and triceps. Lie on a bench and press a barbell upwards.",
     "muscle_group": "Upper Body",
     "equipment": "Barbell, Bench",
-    "measurement_types": ["Kg", "Reps"]
+    "measurement_types": ["Kg", "Reps"],
+    "image_url": "https://example.com/bench_press.jpg",
+    "video_url": "https://example.com/bench_press.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Squat",
     "description": "A fundamental lower body exercise. Squat down as if sitting in a chair, keeping your back straight.",
     "muscle_group": "Lower Body",
     "equipment": "None",
-    "measurement_types": ["Reps"]
+    "measurement_types": ["Reps"],
+    "image_url": "https://example.com/squat.jpg",
+    "video_url": "https://example.com/squat.mp4",
+    "level": "Beginner",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Lunges",
     "description": "A lower body exercise that works the quads, glutes, and hamstrings. Step forward and lower your body until both knees are bent at a 90-degree angle.",
     "muscle_group": "Lower Body",
     "equipment": "Dumbbells (optional)",
-    "measurement_types": ["Reps"]
+    "measurement_types": ["Reps"],
+    "image_url": "https://example.com/lunges.jpg",
+    "video_url": "https://example.com/lunges.mp4",
+    "level": "Beginner",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Shoulder Press",
     "description": "An upper body exercise for the shoulders. Press dumbbells or a barbell overhead.",
     "muscle_group": "Upper Body",
     "equipment": "Dumbbells, Barbell",
-    "measurement_types": ["Kg", "Reps"]
+    "measurement_types": ["Kg", "Reps"],
+    "image_url": "https://example.com/shoulder_press.jpg",
+    "video_url": "https://example.com/shoulder_press.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Bicep Curl",
     "description": "An isolation exercise for the biceps. Curl dumbbells or a barbell towards your shoulders.",
     "muscle_group": "Upper Body",
     "equipment": "Dumbbells, Barbell",
-    "measurement_types": ["Kg", "Reps"]
+    "measurement_types": ["Kg", "Reps"],
+    "image_url": "https://example.com/bicep_curl.jpg",
+    "video_url": "https://example.com/bicep_curl.mp4",
+    "level": "Beginner",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Triceps Extension",
     "description": "An isolation exercise for the triceps. Extend dumbbells or a barbell overhead or behind your head.",
     "muscle_group": "Upper Body",
     "equipment": "Dumbbells, Barbell",
-    "measurement_types": ["Kg", "Reps"]
+    "measurement_types": ["Kg", "Reps"],
+    "image_url": "https://example.com/triceps_extension.jpg",
+    "video_url": "https://example.com/triceps_extension.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Dead Bug",
     "description": "A core exercise that improves stability and coordination. Lie on your back and extend opposite arm and leg.",
     "muscle_group": "Full Body",
     "equipment": "None",
-    "measurement_types": ["Reps"]
+    "measurement_types": ["Reps"],
+    "image_url": "https://example.com/dead_bug.jpg",
+    "video_url": "https://example.com/dead_bug.mp4",
+    "level": "Beginner",
+    "type": "Strength",
+    "isFavourite": false
   },
-    {
+  {
     "name": "Russian Twist",
     "description": "A core exercise that targets the obliques. Twist your torso from side to side while holding a weight or with bodyweight.",
     "muscle_group": "Full Body",
     "equipment": "Medicine Ball, Plate",
-    "measurement_types": ["Reps"]
+    "measurement_types": ["Reps"],
+    "image_url": "https://example.com/russian_twist.jpg",
+    "video_url": "https://example.com/russian_twist.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "High Knees",
     "description": "A cardio exercise that involves bringing your knees towards your chest.",
     "muscle_group": "Cardio",
     "equipment": "None",
-    "measurement_types": ["Time", "Reps"]
+    "measurement_types": ["Time", "Reps"],
+    "image_url": "https://example.com/high_knees.jpg",
+    "video_url": "https://example.com/high_knees.mp4",
+    "level": "Beginner",
+    "type": "Cardio",
+    "isFavourite": false
   },
   {
     "name": "Jumping Jacks",
     "description": "A full body cardio exercise that involves jumping while moving your arms and legs.",
     "muscle_group": "Cardio",
     "equipment": "None",
-    "measurement_types": ["Time", "Reps"]
+    "measurement_types": ["Time", "Reps"],
+    "image_url": "https://example.com/jumping_jacks.jpg",
+    "video_url": "https://example.com/jumping_jacks.mp4",
+    "level": "Beginner",
+    "type": "Cardio",
+    "isFavourite": false
   },
-    {
+  {
     "name": "Burpees",
     "description": "A full body exercise that combines a squat, push-up, and jump.",
     "muscle_group": "Full Body",
     "equipment": "None",
-    "measurement_types": ["Reps", "Time"]
+    "measurement_types": ["Reps", "Time"],
+    "image_url": "https://example.com/burpees.jpg",
+    "video_url": "https://example.com/burpees.mp4",
+    "level": "Advanced",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Farmer's Walk",
     "description": "A strength exercise that involves carrying heavy weights in each hand for a certain distance.",
     "muscle_group": "Full Body",
     "equipment": "Dumbbells, Kettlebells",
-    "measurement_types": ["Kg", "Distance", "Time"]
+    "measurement_types": ["Kg", "Distance", "Time"],
+    "image_url": "https://example.com/farmers_walk.jpg",
+    "video_url": "https://example.com/farmers_walk.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Calf Raises",
     "description": "An isolation exercise for the calf muscles. Raise your heels off the ground while standing.",
     "muscle_group": "Lower Body",
     "equipment": "None, Dumbbells, Calf Raise Machine",
-    "measurement_types": ["Reps", "Kg"]
+    "measurement_types": ["Reps", "Kg"],
+    "image_url": "https://example.com/calf_raises.jpg",
+    "video_url": "https://example.com/calf_raises.mp4",
+    "level": "Beginner",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
         "name": "Hammer Curls",
         "description": "A variation of bicep curls, where the dumbbells are held with palms facing each other.",
         "muscle_group": "Upper Body",
         "equipment": "Dumbbells",
-        "measurement_types": ["Kg", "Reps"]
+        "measurement_types": ["Kg", "Reps"],
+        "image_url": "https://example.com/hammer_curls.jpg",
+        "video_url": "https://example.com/hammer_curls.mp4",
+        "level": "Beginner",
+        "type": "Strength",
+        "isFavourite": false
   },
     {
         "name": "Triceps Dips",
         "description": "An exercise for triceps using bodyweight. Dip your body using parallel bars or a bench.",
         "muscle_group": "Upper Body",
         "equipment": "Parallel Bars, Bench",
-        "measurement_types": ["Reps"]
+        "measurement_types": ["Reps"],
+        "image_url": "https://example.com/triceps_dips.jpg",
+        "video_url": "https://example.com/triceps_dips.mp4",
+        "level": "Intermediate",
+        "type": "Strength",
+        "isFavourite": false
     },
     {
         "name": "Front Squat",
         "description": "A variation of the squat where the barbell is held in front of the shoulders.",
         "muscle_group": "Lower Body",
         "equipment": "Barbell, Squat Rack",
-        "measurement_types": ["Kg", "Reps"]
+        "measurement_types": ["Kg", "Reps"],
+        "image_url": "https://example.com/front_squat.jpg",
+        "video_url": "https://example.com/front_squat.mp4",
+        "level": "Intermediate",
+        "type": "Strength",
+        "isFavourite": false
     },
     {
         "name": "Good Mornings",
         "description": "An exercise for the hamstrings and lower back.  Place a barbell on your upper back and hinge at the hips.",
         "muscle_group": "Lower Body",
         "equipment": "Barbell",
-        "measurement_types": ["Kg", "Reps"]
+        "measurement_types": ["Kg", "Reps"],
+        "image_url": "https://example.com/good_mornings.jpg",
+        "video_url": "https://example.com/good_mornings.mp4",
+        "level": "Intermediate",
+        "type": "Strength",
+        "isFavourite": false
     },
     {
       "name": "Incline Dumbbell Press",
       "description": "Similar to dumbbell bench press, but performed on an incline bench to target the upper chest.",
       "muscle_group": "Upper Body",
       "equipment": "Dumbbells, Bench",
-      "measurement_types": ["Kg", "Reps"]
+      "measurement_types": ["Kg", "Reps"],
+      "image_url": "https://example.com/incline_dumbbell_press.jpg",
+      "video_url": "https://example.com/incline_dumbbell_press.mp4",
+      "level": "Intermediate",
+      "type": "Strength",
+      "isFavourite": false
     },
     {
       "name": "Decline Dumbbell Press",
       "description": "Similar to dumbbell bench press, but performed on a decline bench to target the lower chest.",
       "muscle_group": "Upper Body",
       "equipment": "Dumbbells, Bench",
-      "measurement_types": ["Kg", "Reps"]
+      "measurement_types": ["Kg", "Reps"],
+      "image_url": "https://example.com/decline_dumbbell_press.jpg",
+      "video_url": "https://example.com/decline_dumbbell_press.mp4",
+      "level": "Intermediate",
+      "type": "Strength",
+      "isFavourite": false
     },
     {
         "name": "Pull-up Negatives",
         "description": "Focuses on the lowering portion of the pull-up.  Jump to the top position and slowly lower yourself down.",
         "muscle_group": "Upper Body",
         "equipment": "Pull-up Bar",
-        "measurement_types": ["Time", "Reps"]
+        "measurement_types": ["Time", "Reps"],
+        "image_url": "https://example.com/pull_up_negatives.jpg",
+        "video_url": "https://example.com/pull_up_negatives.mp4",
+        "level": "Intermediate",
+        "type": "Strength",
+        "isFavourite": false
     },
     {
         "name": "Chin-ups",
         "description": "Similar to pull-ups, but with palms facing you, emphasizing the biceps more.",
         "muscle_group": "Upper Body",
         "equipment": "Pull-up Bar",
-        "measurement_types": ["Reps"]
+        "measurement_types": ["Reps"],
+        "image_url": "https://example.com/chin_ups.jpg",
+        "video_url": "https://example.com/chin_ups.mp4",
+        "level": "Intermediate",
+        "type": "Strength",
+        "isFavourite": false
     },
     {
       "name": "Lateral Raises",
       "description": "A shoulder exercise that works the deltoids. Raise your arms to the sides with dumbbells.",
       "muscle_group": "Upper Body",
       "equipment": "Dumbbells",
-      "measurement_types": ["Kg", "Reps"]
+      "measurement_types": ["Kg", "Reps"],
+      "image_url": "https://example.com/lateral_raises.jpg",
+      "video_url": "https://example.com/lateral_raises.mp4",
+      "level": "Beginner",
+      "type": "Strength",
+      "isFavourite": false
     },
     {
       "name": "Front Raises",
       "description": "A shoulder exercise that works the anterior deltoids. Raise your arms to the front with dumbbells or a barbell.",
       "muscle_group": "Upper Body",
       "equipment": "Dumbbells, Barbell",
-      "measurement_types": ["Kg", "Reps"]
+      "measurement_types": ["Kg", "Reps"],
+      "image_url": "https://example.com/front_raises.jpg",
+      "video_url": "https://example.com/front_raises.mp4",
+      "level": "Beginner",
+      "type": "Strength",
+      "isFavourite": false
     },
     {
       "name": "Rear Delt Fly",
       "description": "A shoulder exercise that works the posterior deltoids.  Raise your arms to the sides while bent over.",
       "muscle_group": "Upper Body",
       "equipment": "Dumbbells",
-      "measurement_types": ["Kg", "Reps"]
+      "measurement_types": ["Kg", "Reps"],
+      "image_url": "https://example.com/rear_delt_fly.jpg",
+      "video_url": "https://example.com/rear_delt_fly.mp4",
+      "level": "Intermediate",
+      "type": "Strength",
+      "isFavourite": false
     },
     {
       "name": "Arnold Press",
       "description": "A variation of the shoulder press with a rotation of the wrists.",
       "muscle_group": "Upper Body",
       "equipment": "Dumbbells",
-      "measurement_types": ["Kg", "Reps"]
+      "measurement_types": ["Kg", "Reps"],
+      "image_url": "https://example.com/arnold_press.jpg",
+      "video_url": "https://example.com/arnold_press.mp4",
+      "level": "Intermediate",
+      "type": "Strength",
+      "isFavourite": false
     },
     {
         "name": "Concentration Curls",
         "description": "An isolation exercise for the biceps. Curl a dumbbell while seated, resting your elbow on your inner thigh.",
         "muscle_group": "Upper Body",
         "equipment": "Dumbbell, Bench",
-        "measurement_types": ["Kg", "Reps"]
+        "measurement_types": ["Kg", "Reps"],
+        "image_url": "https://example.com/concentration_curls.jpg",
+        "video_url": "https://example.com/concentration_curls.mp4",
+        "level": "Beginner",
+        "type": "Strength",
+        "isFavourite": false
     },
     {
         "name": "Skullcrushers",
         "description": "A triceps exercise performed lying down.  Extend a barbell or dumbbells over your head.",
         "muscle_group": "Upper Body",
         "equipment": "Barbell, Dumbbells, EZ Bar",
-        "measurement_types": ["Kg", "Reps"]
+        "measurement_types": ["Kg", "Reps"],
+        "image_url": "https://example.com/skullcrushers.jpg",
+        "video_url": "https://example.com/skullcrushers.mp4",
+        "level": "Intermediate",
+        "type": "Strength",
+        "isFavourite": false
     },
       {
         "name": "Close-Grip Bench Press",
         "description": "A variation of the bench press that emphasizes the triceps.  Use a narrower grip.",
         "muscle_group": "Upper Body",
         "equipment": "Barbell, Bench",
-        "measurement_types": ["Kg", "Reps"]
+        "measurement_types": ["Kg", "Reps"],
+        "image_url": "https://example.com/close_grip_bench_press.jpg",
+        "video_url": "https://example.com/close_grip_bench_press.mp4",
+        "level": "Intermediate",
+        "type": "Strength",
+"isFavourite": false
     },
     {
       "name": "Lat Pulldown (Various Grips)",
       "description": "Targets the latissimus dorsi with different hand positions (wide, narrow, underhand).",
       "muscle_group": "Upper Body",
       "equipment": "Lat Pulldown Machine",
-      "measurement_types": ["Kg", "Reps"]
+      "measurement_types": ["Kg", "Reps"],
+      "image_url": "https://example.com/lat_pulldown_various_grips.jpg",
+      "video_url": "https://example.com/lat_pulldown_various_grips.mp4",
+      "level": "Intermediate",
+      "type": "Strength",
+      "isFavourite": false
     },
     {
       "name": "Seated Cable Rows",
       "description": "An exercise for the back.  Pull a cable towards your torso while seated.",
       "muscle_group": "Upper Body",
       "equipment": "Cable Machine",
-      "measurement_types": ["Kg", "Reps"]
+      "measurement_types": ["Kg", "Reps"],
+      "image_url": "https://example.com/seated_cable_rows.jpg",
+      "video_url": "https://example.com/seated_cable_rows.mp4",
+      "level": "Intermediate",
+      "type": "Strength",
+      "isFavourite": false
     },
     {
       "name": "Face Pulls",
       "description": "An exercise for the upper back and rear shoulders.  Pull a cable towards your face.",
       "muscle_group": "Upper Body",
       "equipment": "Cable Machine",
-      "measurement_types": ["Kg", "Reps"]
+      "measurement_types": ["Kg", "Reps"],
+      "image_url": "https://example.com/face_pulls.jpg",
+      "video_url": "https://example.com/face_pulls.mp4",
+      "level": "Intermediate",
+      "type": "Strength",
+      "isFavourite": false
     },
     {
         "name": "Hyperextensions",
         "description": "An exercise for the lower back.  Extend your torso while lying face down on a hyperextension bench.",
         "muscle_group": "Lower Body",
         "equipment": "Hyperextension Bench",
-        "measurement_types": ["Reps", "Time"]
+        "measurement_types": ["Reps", "Time"],
+        "image_url": "https://example.com/hyperextensions.jpg",
+        "video_url": "https://example.com/hyperextensions.mp4",
+        "level": "Intermediate",
+        "type": "Strength",
+        "isFavourite": false
     },
     {
         "name": "Glute Bridges",
         "description": "An exercise for the glutes.  Lift your hips off the ground while lying on your back.",
         "muscle_group": "Lower Body",
         "equipment": "None",
-        "measurement_types": ["Reps"]
+        "measurement_types": ["Reps"],
+        "image_url": "https://example.com/glute_bridges.jpg",
+        "video_url": "https://example.com/glute_bridges.mp4",
+        "level": "Beginner",
+        "type": "Strength",
+        "isFavourite": false
     },
     {
         "name": "Hamstring Curls",
         "description": "An isolation exercise for the hamstrings.  Curl your lower legs towards your glutes.",
         "muscle_group": "Lower Body",
         "equipment": "Hamstring Curl Machine",
-        "measurement_types": ["Kg", "Reps"]
+        "measurement_types": ["Kg", "Reps"],
+        "image_url": "https://example.com/hamstring_curls.jpg",
+        "video_url": "https://example.com/hamstring_curls.mp4",
+        "level": "Intermediate",
+        "type": "Strength",
+        "isFavourite": false
     },
       {
         "name": "Leg Extensions",
         "description": "An isolation exercise for the quadriceps.  Extend your lower legs.",
         "muscle_group": "Lower Body",
         "equipment": "Leg Extension Machine",
-        "measurement_types": ["Kg", "Reps"]
+        "measurement_types": ["Kg", "Reps"],
+        "image_url": "https://example.com/leg_extensions.jpg",
+        "video_url": "https://example.com/leg_extensions.mp4",
+        "level": "Intermediate",
+        "type": "Strength",
+        "isFavourite": false
     },
     {
       "name": "Standing Calf Raises",
       "description": "Raise your heels off the ground while standing, targeting the calf muscles.",
       "muscle_group": "Lower Body",
       "equipment": "None, Calf Raise Machine",
-      "measurement_types": ["Reps", "Kg"]
+      "measurement_types": ["Reps", "Kg"],
+      "image_url": "https://example.com/standing_calf_raises.jpg",
+      "video_url": "https://example.com/standing_calf_raises.mp4",
+      "level": "Beginner",
+      "type": "Strength",
+      "isFavourite": false
     },
     {
       "name": "Seated Calf Raises",
       "description": "Raise your heels off the ground while seated, targeting the calf muscles.",
       "muscle_group": "Lower Body",
       "equipment": "Seated Calf Raise Machine",
-      "measurement_types": ["Reps", "Kg"]
+      "measurement_types": ["Reps", "Kg"],
+      "image_url": "https://example.com/seated_calf_raises.jpg",
+      "video_url": "https://example.com/seated_calf_raises.mp4",
+      "level": "Beginner",
+      "type": "Strength",
+      "isFavourite": false
     },
   {
     "name": "Walking Lunges",
     "description": "A variation of lunges where you walk forward with each step.",
     "muscle_group": "Lower Body",
     "equipment": "None, Dumbbells",
-    "measurement_types": ["Reps", "Distance"]
+    "measurement_types": ["Reps", "Distance"],
+    "image_url": "https://example.com/walking_lunges.jpg",
+    "video_url": "https://example.com/walking_lunges.mp4",
+    "level": "Beginner",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Step-ups",
     "description": "Step onto a platform or bench, working the quads, glutes, and hamstrings.",
     "muscle_group": "Lower Body",
     "equipment": "Platform, Bench",
-    "measurement_types": ["Reps"]
+    "measurement_types": ["Reps"],
+    "image_url": "https://example.com/step_ups.jpg",
+    "video_url": "https://example.com/step_ups.mp4",
+    "level": "Beginner",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Box Jumps",
     "description": "Jump onto a box, a plyometric exercise for power and explosiveness.",
     "muscle_group": "Lower Body",
     "equipment": "Box",
-    "measurement_types": ["Reps"]
+    "measurement_types": ["Reps"],
+    "image_url": "https://example.com/box_jumps.jpg",
+    "video_url": "https://example.com/box_jumps.mp4",
+    "level": "Intermediate",
+    "type": "Plyometrics",
+    "isFavourite": false
   },
   {
     "name": "Mountain Climbers",
     "description": "A dynamic full-body exercise that works the core and elevates the heart rate.",
     "muscle_group": "Full Body",
     "equipment": "None",
-    "measurement_types": ["Reps", "Time"]
+    "measurement_types": ["Reps", "Time"],
+    "image_url": "https://example.com/mountain_climbers.jpg",
+    "video_url": "https://example.com/mountain_climbers.mp4",
+    "level": "Intermediate",
+    "type": "Cardio",
+    "isFavourite": false
   },
   {
     "name": "Russian Twists",
     "description": "A core exercise that targets the obliques. Twist your torso from side to side while holding a weight or with bodyweight.",
     "muscle_group": "Full Body",
     "equipment": "Medicine Ball, Plate",
-    "measurement_types": ["Reps"]
+    "measurement_types": ["Reps"],
+    "image_url": "https://example.com/russian_twists.jpg",
+    "video_url": "https://example.com/russian_twists.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Bear Crawl",
     "description": "A full-body exercise that involves crawling on your hands and feet.",
     "muscle_group": "Full Body",
     "equipment": "None",
-    "measurement_types": ["Distance", "Time"]
+    "measurement_types": ["Distance", "Time"],
+    "image_url": "https://example.com/bear_crawl.jpg",
+    "video_url": "https://example.com/bear_crawl.mp4",
+    "level": "Intermediate",
+    "type": "Strength",
+    "isFavourite": false
   },
   {
     "name": "Jumping Rope",
     "description": "A cardio exercise that improves coordination and cardiovascular health.",
     "muscle_group": "Cardio",
     "equipment": "Jump Rope",
-    "measurement_types": ["Time", "Reps"]
+    "measurement_types": ["Time", "Reps"],
+    "image_url": "https://example.com/jumping_rope.jpg",
+    "video_url": "https://example.com/jumping_rope.mp4",
+    "level": "Beginner",
+    "type": "Cardio",
+    "isFavourite": false
   },
   {
     "name": "Sprints",
     "description": "High-intensity running for short distances.",
     "muscle_group": "Cardio",
     "equipment": "None",
-    "measurement_types": ["Distance", "Time"]
+    "measurement_types": ["Distance", "Time"],
+    "image_url": "https://example.com/sprints.jpg",
+    "video_url": "https://example.com/sprints.mp4",
+    "level": "Advanced",
+    "type": "Cardio",
+    "isFavourite": false
   },
   {
     "name": "Stair Climber",
     "description": "A cardio machine that simulates climbing stairs.",
     "muscle_group": "Cardio",
     "equipment": "Stair Climber Machine",
-    "measurement_types": ["Time", "Floors"]
+    "measurement_types": ["Time", "Floors"],
+    "image_url": "https://example.com/stair_climber.jpg",
+    "video_url": "https://example.com/stair_climber.mp4",
+    "level": "Intermediate",
+    "type": "Cardio",
+    "isFavourite": false
   },
     {
     "name": "Elliptical Trainer",
     "description": "A cardio machine that provides a low-impact, full-body workout.",
     "muscle_group": "Cardio",
     "equipment": "Elliptical Machine",
-    "measurement_types": ["Time", "Distance"]
+    "measurement_types": ["Time", "Distance"],
+    "image_url": "https://example.com/elliptical_trainer.jpg",
+    "video_url": "https://example.com/elliptical_trainer.mp4",
+    "level": "Beginner",
+    "type": "Cardio",
+    "isFavourite": false
   },
   {
     "name": "Rowing Machine",
     "description": "A full-body cardio exercise that works the legs, core, and upper body.",
     "muscle_group": "Cardio",
     "equipment": "Rowing Machine",
-    "measurement_types": ["Time", "Distance", "Meters"]
+    "measurement_types": ["Time", "Distance", "Meters"],
+    "image_url": "https://example.com/rowing_machine.jpg",
+    "video_url": "https://example.com/rowing_machine.mp4",
+    "level": "Intermediate",
+    "type": "Cardio",
+    "isFavourite": false
   },
   {
     "name": "Cool down",
     "description": "Gentle exercise to gradually decrease activity levels after a workout.",
     "muscle_group": "Full Body",
     "equipment": "None",
-    "measurement_types": ["Time"]
+    "measurement_types": ["Time"],
+    "image_url": "https://example.com/cool_down.jpg",
+    "video_url": "https://example.com/cool_down.mp4",
+    "level": "Beginner",
+    "type": "Other",
+    "isFavourite": false
   },
     {
     "name": "Foam Rolling",
     "description": "Self-myofascial release technique to relieve muscle tightness and improve recovery.",
     "muscle_group": "Full Body",
     "equipment": "Foam Roller",
-    "measurement_types": ["Time"]
+    "measurement_types": ["Time"],
+    "image_url": "https://example.com/foam_rolling.jpg",
+    "video_url": "https://example.com/foam_rolling.mp4",
+    "level": "Beginner",
+    "type": "Other",
+    "isFavourite": false
   },
   {
         "name": "Dynamic Stretching",
         "description": "Stretching with movement, such as arm circles or leg swings, to improve mobility.",
         "muscle_group": "Full Body",
         "equipment": "None",
-        "measurement_types": ["Time", "Reps"]
+        "measurement_types": ["Time", "Reps"],
+        "image_url": "https://example.com/dynamic_stretching.jpg",
+        "video_url": "https://example.com/dynamic_stretching.mp4",
+        "level": "Beginner",
+        "type": "Other",
+        "isFavourite": false
   },
   {
         "name": "Static Stretching",
         "description": "Holding a stretch in a fixed position to improve flexibility.",
         "muscle_group": "Full Body",
         "equipment": "None",
-        "measurement_types": ["Time"]
+        "measurement_types": ["Time"],
+        "image_url": "https://example.com/static_stretching.jpg",
+        "video_url": "https://example.com/static_stretching.mp4",
+        "level": "Beginner",
+        "type": "Other",
+        "isFavourite": false
   }
 ]
