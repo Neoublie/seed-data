@@ -13,7 +13,7 @@
     "equipment": "Dumbbells, Bench",
     "measurement_types": ["Kg", "Reps"]
   },
-    {
+  {
     "name": "Pull-ups",
     "description": "A compound upper body exercise that works the back and biceps. Hang from a pull-up bar and pull your body up until your chin is above the bar.",
     "muscle_group": "Upper Body",
@@ -71,9 +71,394 @@
   },
   {
     "name": "Cycling",
-    "description": "cardio exercise that works many lower body muscles. cycle on a stationary bike.",
+    "description": "Cardio exercise that works many lower body muscles. Cycle on a stationary bike.",
     "muscle_group": "Cardio",
     "equipment": "Stationary Bike",
     "measurement_types": ["Distance", "Time"]
+  },
+  {
+    "name": "Push-ups",
+    "description": "A classic upper body exercise that works the chest, shoulders, and triceps.  Perform exercise on the floor.",
+    "muscle_group": "Upper Body",
+    "equipment": "None",
+    "measurement_types": ["Reps"]
+  },
+  {
+    "name": "Deadlift",
+    "description": "A full-body exercise that works nearly every muscle, but emphasizes the posterior chain. Lift a loaded barbell from the floor to a standing position.",
+    "muscle_group": "Full Body",
+    "equipment": "Barbell",
+    "measurement_types": ["Kg", "Reps"]
+  },
+  {
+    "name": "Kettlebell Swing",
+    "description": "A full body exercise that improves power and endurance, especially in the posterior chain. Swing a kettlebell from between your legs to shoulder height.",
+    "muscle_group": "Full Body",
+    "equipment": "Kettlebell",
+    "measurement_types": ["Kg", "Reps"]
+  },
+  {
+    "name": "Bench Press",
+    "description": "A compound exercise for the chest, shoulders, and triceps. Lie on a bench and press a barbell upwards.",
+    "muscle_group": "Upper Body",
+    "equipment": "Barbell, Bench",
+    "measurement_types": ["Kg", "Reps"]
+  },
+  {
+    "name": "Squat",
+    "description": "A fundamental lower body exercise. Squat down as if sitting in a chair, keeping your back straight.",
+    "muscle_group": "Lower Body",
+    "equipment": "None",
+    "measurement_types": ["Reps"]
+  },
+  {
+    "name": "Lunges",
+    "description": "A lower body exercise that works the quads, glutes, and hamstrings. Step forward and lower your body until both knees are bent at a 90-degree angle.",
+    "muscle_group": "Lower Body",
+    "equipment": "Dumbbells (optional)",
+    "measurement_types": ["Reps"]
+  },
+  {
+    "name": "Shoulder Press",
+    "description": "An upper body exercise for the shoulders. Press dumbbells or a barbell overhead.",
+    "muscle_group": "Upper Body",
+    "equipment": "Dumbbells, Barbell",
+    "measurement_types": ["Kg", "Reps"]
+  },
+  {
+    "name": "Bicep Curl",
+    "description": "An isolation exercise for the biceps. Curl dumbbells or a barbell towards your shoulders.",
+    "muscle_group": "Upper Body",
+    "equipment": "Dumbbells, Barbell",
+    "measurement_types": ["Kg", "Reps"]
+  },
+  {
+    "name": "Triceps Extension",
+    "description": "An isolation exercise for the triceps. Extend dumbbells or a barbell overhead or behind your head.",
+    "muscle_group": "Upper Body",
+    "equipment": "Dumbbells, Barbell",
+    "measurement_types": ["Kg", "Reps"]
+  },
+  {
+    "name": "Dead Bug",
+    "description": "A core exercise that improves stability and coordination. Lie on your back and extend opposite arm and leg.",
+    "muscle_group": "Full Body",
+    "equipment": "None",
+    "measurement_types": ["Reps"]
+  },
+    {
+    "name": "Russian Twist",
+    "description": "A core exercise that targets the obliques. Twist your torso from side to side while holding a weight or with bodyweight.",
+    "muscle_group": "Full Body",
+    "equipment": "Medicine Ball, Plate",
+    "measurement_types": ["Reps"]
+  },
+  {
+    "name": "High Knees",
+    "description": "A cardio exercise that involves bringing your knees towards your chest.",
+    "muscle_group": "Cardio",
+    "equipment": "None",
+    "measurement_types": ["Time", "Reps"]
+  },
+  {
+    "name": "Jumping Jacks",
+    "description": "A full body cardio exercise that involves jumping while moving your arms and legs.",
+    "muscle_group": "Cardio",
+    "equipment": "None",
+    "measurement_types": ["Time", "Reps"]
+  },
+    {
+    "name": "Burpees",
+    "description": "A full body exercise that combines a squat, push-up, and jump.",
+    "muscle_group": "Full Body",
+    "equipment": "None",
+    "measurement_types": ["Reps", "Time"]
+  },
+  {
+    "name": "Farmer's Walk",
+    "description": "A strength exercise that involves carrying heavy weights in each hand for a certain distance.",
+    "muscle_group": "Full Body",
+    "equipment": "Dumbbells, Kettlebells",
+    "measurement_types": ["Kg", "Distance", "Time"]
+  },
+  {
+    "name": "Calf Raises",
+    "description": "An isolation exercise for the calf muscles. Raise your heels off the ground while standing.",
+    "muscle_group": "Lower Body",
+    "equipment": "None, Dumbbells, Calf Raise Machine",
+    "measurement_types": ["Reps", "Kg"]
+  },
+  {
+        "name": "Hammer Curls",
+        "description": "A variation of bicep curls, where the dumbbells are held with palms facing each other.",
+        "muscle_group": "Upper Body",
+        "equipment": "Dumbbells",
+        "measurement_types": ["Kg", "Reps"]
+  },
+    {
+        "name": "Triceps Dips",
+        "description": "An exercise for triceps using bodyweight. Dip your body using parallel bars or a bench.",
+        "muscle_group": "Upper Body",
+        "equipment": "Parallel Bars, Bench",
+        "measurement_types": ["Reps"]
+    },
+    {
+        "name": "Front Squat",
+        "description": "A variation of the squat where the barbell is held in front of the shoulders.",
+        "muscle_group": "Lower Body",
+        "equipment": "Barbell, Squat Rack",
+        "measurement_types": ["Kg", "Reps"]
+    },
+    {
+        "name": "Good Mornings",
+        "description": "An exercise for the hamstrings and lower back.  Place a barbell on your upper back and hinge at the hips.",
+        "muscle_group": "Lower Body",
+        "equipment": "Barbell",
+        "measurement_types": ["Kg", "Reps"]
+    },
+    {
+      "name": "Incline Dumbbell Press",
+      "description": "Similar to dumbbell bench press, but performed on an incline bench to target the upper chest.",
+      "muscle_group": "Upper Body",
+      "equipment": "Dumbbells, Bench",
+      "measurement_types": ["Kg", "Reps"]
+    },
+    {
+      "name": "Decline Dumbbell Press",
+      "description": "Similar to dumbbell bench press, but performed on a decline bench to target the lower chest.",
+      "muscle_group": "Upper Body",
+      "equipment": "Dumbbells, Bench",
+      "measurement_types": ["Kg", "Reps"]
+    },
+    {
+        "name": "Pull-up Negatives",
+        "description": "Focuses on the lowering portion of the pull-up.  Jump to the top position and slowly lower yourself down.",
+        "muscle_group": "Upper Body",
+        "equipment": "Pull-up Bar",
+        "measurement_types": ["Time", "Reps"]
+    },
+    {
+        "name": "Chin-ups",
+        "description": "Similar to pull-ups, but with palms facing you, emphasizing the biceps more.",
+        "muscle_group": "Upper Body",
+        "equipment": "Pull-up Bar",
+        "measurement_types": ["Reps"]
+    },
+    {
+      "name": "Lateral Raises",
+      "description": "A shoulder exercise that works the deltoids. Raise your arms to the sides with dumbbells.",
+      "muscle_group": "Upper Body",
+      "equipment": "Dumbbells",
+      "measurement_types": ["Kg", "Reps"]
+    },
+    {
+      "name": "Front Raises",
+      "description": "A shoulder exercise that works the anterior deltoids. Raise your arms to the front with dumbbells or a barbell.",
+      "muscle_group": "Upper Body",
+      "equipment": "Dumbbells, Barbell",
+      "measurement_types": ["Kg", "Reps"]
+    },
+    {
+      "name": "Rear Delt Fly",
+      "description": "A shoulder exercise that works the posterior deltoids.  Raise your arms to the sides while bent over.",
+      "muscle_group": "Upper Body",
+      "equipment": "Dumbbells",
+      "measurement_types": ["Kg", "Reps"]
+    },
+    {
+      "name": "Arnold Press",
+      "description": "A variation of the shoulder press with a rotation of the wrists.",
+      "muscle_group": "Upper Body",
+      "equipment": "Dumbbells",
+      "measurement_types": ["Kg", "Reps"]
+    },
+    {
+        "name": "Concentration Curls",
+        "description": "An isolation exercise for the biceps. Curl a dumbbell while seated, resting your elbow on your inner thigh.",
+        "muscle_group": "Upper Body",
+        "equipment": "Dumbbell, Bench",
+        "measurement_types": ["Kg", "Reps"]
+    },
+    {
+        "name": "Skullcrushers",
+        "description": "A triceps exercise performed lying down.  Extend a barbell or dumbbells over your head.",
+        "muscle_group": "Upper Body",
+        "equipment": "Barbell, Dumbbells, EZ Bar",
+        "measurement_types": ["Kg", "Reps"]
+    },
+      {
+        "name": "Close-Grip Bench Press",
+        "description": "A variation of the bench press that emphasizes the triceps.  Use a narrower grip.",
+        "muscle_group": "Upper Body",
+        "equipment": "Barbell, Bench",
+        "measurement_types": ["Kg", "Reps"]
+    },
+    {
+      "name": "Lat Pulldown (Various Grips)",
+      "description": "Targets the latissimus dorsi with different hand positions (wide, narrow, underhand).",
+      "muscle_group": "Upper Body",
+      "equipment": "Lat Pulldown Machine",
+      "measurement_types": ["Kg", "Reps"]
+    },
+    {
+      "name": "Seated Cable Rows",
+      "description": "An exercise for the back.  Pull a cable towards your torso while seated.",
+      "muscle_group": "Upper Body",
+      "equipment": "Cable Machine",
+      "measurement_types": ["Kg", "Reps"]
+    },
+    {
+      "name": "Face Pulls",
+      "description": "An exercise for the upper back and rear shoulders.  Pull a cable towards your face.",
+      "muscle_group": "Upper Body",
+      "equipment": "Cable Machine",
+      "measurement_types": ["Kg", "Reps"]
+    },
+    {
+        "name": "Hyperextensions",
+        "description": "An exercise for the lower back.  Extend your torso while lying face down on a hyperextension bench.",
+        "muscle_group": "Lower Body",
+        "equipment": "Hyperextension Bench",
+        "measurement_types": ["Reps", "Time"]
+    },
+    {
+        "name": "Glute Bridges",
+        "description": "An exercise for the glutes.  Lift your hips off the ground while lying on your back.",
+        "muscle_group": "Lower Body",
+        "equipment": "None",
+        "measurement_types": ["Reps"]
+    },
+    {
+        "name": "Hamstring Curls",
+        "description": "An isolation exercise for the hamstrings.  Curl your lower legs towards your glutes.",
+        "muscle_group": "Lower Body",
+        "equipment": "Hamstring Curl Machine",
+        "measurement_types": ["Kg", "Reps"]
+    },
+      {
+        "name": "Leg Extensions",
+        "description": "An isolation exercise for the quadriceps.  Extend your lower legs.",
+        "muscle_group": "Lower Body",
+        "equipment": "Leg Extension Machine",
+        "measurement_types": ["Kg", "Reps"]
+    },
+    {
+      "name": "Standing Calf Raises",
+      "description": "Raise your heels off the ground while standing, targeting the calf muscles.",
+      "muscle_group": "Lower Body",
+      "equipment": "None, Calf Raise Machine",
+      "measurement_types": ["Reps", "Kg"]
+    },
+    {
+      "name": "Seated Calf Raises",
+      "description": "Raise your heels off the ground while seated, targeting the calf muscles.",
+      "muscle_group": "Lower Body",
+      "equipment": "Seated Calf Raise Machine",
+      "measurement_types": ["Reps", "Kg"]
+    },
+  {
+    "name": "Walking Lunges",
+    "description": "A variation of lunges where you walk forward with each step.",
+    "muscle_group": "Lower Body",
+    "equipment": "None, Dumbbells",
+    "measurement_types": ["Reps", "Distance"]
+  },
+  {
+    "name": "Step-ups",
+    "description": "Step onto a platform or bench, working the quads, glutes, and hamstrings.",
+    "muscle_group": "Lower Body",
+    "equipment": "Platform, Bench",
+    "measurement_types": ["Reps"]
+  },
+  {
+    "name": "Box Jumps",
+    "description": "Jump onto a box, a plyometric exercise for power and explosiveness.",
+    "muscle_group": "Lower Body",
+    "equipment": "Box",
+    "measurement_types": ["Reps"]
+  },
+  {
+    "name": "Mountain Climbers",
+    "description": "A dynamic full-body exercise that works the core and elevates the heart rate.",
+    "muscle_group": "Full Body",
+    "equipment": "None",
+    "measurement_types": ["Reps", "Time"]
+  },
+  {
+    "name": "Russian Twists",
+    "description": "A core exercise that targets the obliques. Twist your torso from side to side while holding a weight or with bodyweight.",
+    "muscle_group": "Full Body",
+    "equipment": "Medicine Ball, Plate",
+    "measurement_types": ["Reps"]
+  },
+  {
+    "name": "Bear Crawl",
+    "description": "A full-body exercise that involves crawling on your hands and feet.",
+    "muscle_group": "Full Body",
+    "equipment": "None",
+    "measurement_types": ["Distance", "Time"]
+  },
+  {
+    "name": "Jumping Rope",
+    "description": "A cardio exercise that improves coordination and cardiovascular health.",
+    "muscle_group": "Cardio",
+    "equipment": "Jump Rope",
+    "measurement_types": ["Time", "Reps"]
+  },
+  {
+    "name": "Sprints",
+    "description": "High-intensity running for short distances.",
+    "muscle_group": "Cardio",
+    "equipment": "None",
+    "measurement_types": ["Distance", "Time"]
+  },
+  {
+    "name": "Stair Climber",
+    "description": "A cardio machine that simulates climbing stairs.",
+    "muscle_group": "Cardio",
+    "equipment": "Stair Climber Machine",
+    "measurement_types": ["Time", "Floors"]
+  },
+    {
+    "name": "Elliptical Trainer",
+    "description": "A cardio machine that provides a low-impact, full-body workout.",
+    "muscle_group": "Cardio",
+    "equipment": "Elliptical Machine",
+    "measurement_types": ["Time", "Distance"]
+  },
+  {
+    "name": "Rowing Machine",
+    "description": "A full-body cardio exercise that works the legs, core, and upper body.",
+    "muscle_group": "Cardio",
+    "equipment": "Rowing Machine",
+    "measurement_types": ["Time", "Distance", "Meters"]
+  },
+  {
+    "name": "Cool down",
+    "description": "Gentle exercise to gradually decrease activity levels after a workout.",
+    "muscle_group": "Full Body",
+    "equipment": "None",
+    "measurement_types": ["Time"]
+  },
+    {
+    "name": "Foam Rolling",
+    "description": "Self-myofascial release technique to relieve muscle tightness and improve recovery.",
+    "muscle_group": "Full Body",
+    "equipment": "Foam Roller",
+    "measurement_types": ["Time"]
+  },
+  {
+        "name": "Dynamic Stretching",
+        "description": "Stretching with movement, such as arm circles or leg swings, to improve mobility.",
+        "muscle_group": "Full Body",
+        "equipment": "None",
+        "measurement_types": ["Time", "Reps"]
+  },
+  {
+        "name": "Static Stretching",
+        "description": "Holding a stretch in a fixed position to improve flexibility.",
+        "muscle_group": "Full Body",
+        "equipment": "None",
+        "measurement_types": ["Time"]
   }
 ]
